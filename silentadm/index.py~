@@ -1,0 +1,5 @@
+#! /usr/bin/env python
+
+#This is just a demo call from ajax
+
+print "Hello world"
