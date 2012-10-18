@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+/*Main css*/
+
+@import url("reset.css");
+
+
+#wrapper{
+	margin:0;
+	width:100%;
+	height:100%;
+}
+#main{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+}
+#header{
+	width:100%;
+	height:60px;
+	background-image:url(../images/hed_grad.png);
+	background-repeat:repeat-x;
+	padding-top:40px;
+	padding-left:20px;
+	margin:5px;
+}
+.header1 h3{
+	font-size:40px;
+	font-family:"MS Reference Sans Serif";
+	color:#005199;
+	width:50%;
+	float:left;	
+}
+.header1 h4{
+	font-size:14px;
+	font-family:"MS Reference Sans Serif";
+	color:#005199;
+	width:50%;
+	float:right;	
+	height:100px;
+	margin-top:30px;
+}
+#container{
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	height:500px;
+	margin-top:5px;
+}
+
+#navigation{
+	width:632px;
+	height:28px;
+	
+}
+
+.navigation1
+{
+	width:940px;
+	height:32px;
+	margin-left:30px;
+	float:left;
+}
+
+.navigation2
+{
+	width: 940px;
+	height: 28px;
+	background-image:url(../images/menu_grad.png);
+	background-repeat:repeat-x;
+	float:left;
+}
+
+.submenu
+{
+	background-image:url(../images/menu.png);
+	width:109px;
+	height:23px;
+	font-size:14px;
+	font-family:"MS Reference Sans Serif";
+}
+
+.navigation1 ul
+{
+	list-style:none;
+	display:inline-block;
+
+}
+
+.navigation1 ul li
+{
+	float:left;
+	width:97px;
+	padding-left:12px;
+	padding-top:5px;
+
+}
+
+.submenu1
+{
+	font-size:14px;
+	font-family:"MS Reference Sans Serif";
+	background-image:url(../images/bar.png);
+	width:1px;
+	height:28px;	
+}
+
+.navigation1 ul
+{
+	list-style:none;
+	display:inline-block;
+}
+
+.navigation1 ul li
+{
+	float:left;
+	width:97px;
+	padding-left:12px;
+	padding-top:5px;
+
+}
